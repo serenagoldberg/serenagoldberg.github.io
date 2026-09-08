@@ -119,3 +119,23 @@ a:hover {
   border: 1px solid #dddddd;
   margin-top: 1rem;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 1.5rem 1rem 3rem;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  .home-header {
+    flex-direction: column;
+  }
+
+  .home-header .headshot {
+    width: 140px;
+    height: 170px;
+  }
+}
