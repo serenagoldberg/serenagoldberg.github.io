@@ -4,21 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV — Serena Goldberg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="research.html">Research</a>
-    <a href="cv.html">CV</a>
-  </nav>
+  <div class="page">
+    <header class="masthead">
+      <a href="index.html" class="masthead__wordmark">Serena Goldberg</a>
+      <nav class="masthead__nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="cv.html" aria-current="page">CV</a>
+      </nav>
+    </header>
 
-  <h1>CV</h1>
+    <main>
+      <h1 class="visually-hidden">CV</h1>
 
-  <p><a href="files/cv.pdf">Download PDF</a></p>
+      <p class="cv-download"><a href="files/cv.pdf">Download PDF</a></p>
 
-  <iframe src="files/cv.pdf" class="cv-embed" title="Serena Goldberg CV">
-    <p>Your browser doesn't support inline PDF viewing. <a href="files/cv.pdf">Download the PDF</a> instead.</p>
-  </iframe>
+      <iframe src="files/cv.pdf" class="cv-embed" title="Serena Goldberg CV">
+        <p>Your browser doesn't support inline PDF viewing. <a href="files/cv.pdf">Download the PDF</a> instead.</p>
+      </iframe>
+    </main>
+  </div>
 </body>
 </html>

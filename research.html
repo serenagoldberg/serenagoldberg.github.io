@@ -4,45 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Research — Serena Goldberg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="research.html">Research</a>
-    <a href="cv.html">CV</a>
-  </nav>
+  <div class="page">
+    <header class="masthead">
+      <a href="index.html" class="masthead__wordmark">Serena Goldberg</a>
+      <nav class="masthead__nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </header>
 
-  <h1>Research</h1>
+    <main>
+      <h1 class="visually-hidden">Research</h1>
 
-  <h2>Publications</h2>
-  <!-- No published papers yet. Delete this comment and add <div class="paper">...</div> blocks as papers are published. -->
+      <h2>Working Papers</h2>
 
-  <h2>Working papers</h2>
+      <article class="paper">
+        <h3 class="paper__title">The Effects of Subsidy Policy on Cost and Quality of Child Care <span class="paper__jmp-tag">(Job Market Paper)</span></h3>
+        <p class="paper__abstract">The largest federal child care program in the United States gives states $12.4 billion annually to spend on child care subsidies. A subsidy covers the cost of private care up to a maximum subsidy, set by the state. Both the maximum subsidy and the number of subsidized families affect demand. Using novel administrative data from Wisconsin, I also show quasi-experimental evidence that providers change their price and quality in response to changes to the maximum subsidy and the number of subsidized families. Under a fixed budget, states must trade off serving more families against giving larger subsidies to fewer families. Which allocation enrolls more children in higher-quality formal care is unclear. In this paper, I determine the enrollment impacts of a 130% average increase in the maximum subsidy Wisconsin implemented in 2022 relative to using the same budget to enroll more families. To determine the counterfactual number of families subsidized under the smaller maximum subsidy, I estimate a structural model with endogenous price, quality, and number of subsidized families. Relative to subsidizing more families, the larger maximum subsidy reduced the number of low-income families in formal care by 20.8%, outweighing the increase in enrollment at public or high-quality private providers.</p>
+        <div class="paper__meta">
+          <span class="paper__status">November 2026</span>
+          <!-- PDF link hidden until the file exists. Restore when uploaded:
+               <a href="files/subsidy-policy.pdf">PDF</a> -->
+        </div>
+      </article>
 
-  <div class="paper">
-    <div class="title">Paper title placeholder</div>
-    <div class="coauthors">with Coauthor Name and Another Coauthor</div>
-    <p class="abstract">Abstract paragraph placeholder. Replace with a one-paragraph summary of the paper.</p>
-    <p><a href="files/paper-slug.pdf">PDF</a></p>
-    <p class="status">Submitted to Annual Review of Economics.</p>
-  </div>
+      <article class="paper">
+        <h3 class="paper__title">The Effect of Childcare on Female Labor Supply and Child Development in Low and Middle Income Countries</h3>
+        <p class="paper__coauthors">with Costas Meghir</p>
+        <p class="paper__abstract">Child care services can offer an opportunity for women to develop their careers and increase household income. At the same time, it can affect the development of children, depending on the quality of care. We first develop a collective model of the household as a conceptual framework to show how improving the availability of child care can affect mothers&rsquo; labor market opportunities and earnings and how it can affect child development. We then review the literature on the effects of child care on the employment and earnings of women and on child development. Child care can increase mothers&rsquo; employment. However, limited work opportunities or strict norms against maternal work can keep mothers out of the labor force. When other family members provide care, child care can free these caregivers to work or attend school. When studies measure the impact on child development, the results are mixed and depend on both context and quality of provision.</p>
+        <div class="paper__meta">
+          <span class="paper__status">August 2026 &middot; NBER Working Paper No. 35649 &middot; Submitted to <em>Annual Review of Economics</em></span>
+          <a href="files/childcare-lmic.pdf">PDF</a>
+        </div>
+      </article>
 
-  <div class="paper">
-    <div class="title">Second working paper placeholder</div>
-    <div class="coauthors">Solo-authored</div>
-    <p class="abstract">Abstract paragraph placeholder.</p>
-    <p><a href="files/paper-slug-2.pdf">PDF</a></p>
-    <!-- Status line omitted when there's nothing to note. -->
-  </div>
+      <h2>Work in Progress</h2>
 
-  <h2>Work in progress</h2>
+      <article class="paper">
+        <h3 class="paper__title">Family Structure, Family Income, and Race</h3>
+        <p class="paper__coauthors">with Joseph Altonji</p>
+      </article>
 
-  <div class="paper">
-    <div class="title">Work-in-progress paper placeholder</div>
-    <div class="coauthors">with Coauthor Name</div>
-    <p class="abstract">Brief description of the project.</p>
-    <!-- No PDF link yet — link will be added when a working draft exists. -->
+      <article class="paper">
+        <h3 class="paper__title">For-Profit Colleges and Sources of Undermatching</h3>
+        <p class="paper__coauthors">with Ryan Haygood and Pamela Torola</p>
+      </article>
+
+      <article class="paper">
+        <h3 class="paper__title">Maternal Employment and Access to Quality Child Care</h3>
+      </article>
+
+      <article class="paper">
+        <h3 class="paper__title">Public Preschool, Child Development, and Maternal Labor Outcomes: Experimental Evidence from Kenya</h3>
+        <p class="paper__coauthors">with Costas Meghir and Helen Baker-Henningham</p>
+      </article>
+    </main>
   </div>
 </body>
 </html>
