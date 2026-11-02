@@ -280,6 +280,13 @@ b {
   color: var(--color-ink-2);
 }
 
+.paper__pdf {
+  font-weight: 400;
+  font-size: var(--text-sm);
+  margin-left: var(--space-2xs);
+  white-space: nowrap;
+}
+
 .paper__coauthors {
   font-size: var(--text-sm);
   color: var(--color-ink-2);
